@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var arr=['a','b','c']
+      var arr2=prompt("add or remove")
+      if(arr2=="add"){
+        var add1=+prompt("kitne colour add krane hai?\n max 5")
+        if(add1==5){
+            var add01=prompt("enter add colour 1")
+            var add02=prompt("enter add colour 2")
+            var add03=prompt("enter add colour 3")
+            var add04=prompt("enter add colour 4")
+            var add05=prompt("enter add colour 5")
+            var firstadd=+prompt("first par kitne add krne "+add1+" mein se")
+            if(firstadd==5){
+                arr2=arr,arr.unshift(add01,add02,add03,add04,add05)
+                  console.log(arr2)}
+                if(firstadd==4){
+                  arr2=arr,arr.unshift(add01,add02,add03,add04)
+                  console.log(arr2);}
+                if(firstadd==3){
+                arr2=arr,arr.unshift(add01,add02,add03)
+                console.log(arr2)}
+                if(firstadd==2){
+                arr2=arr,arr.unshift(add01,add02)
+                console.log(arr2)}
+                if(firstadd==1){
+                arr2=arr,arr.unshift(add01)
+                console.log(arr2)}
+                
+            
+                var lastadd=+prompt("last par kitne add krne  hai")
+            if(lastadd==5){
+                arr2=arr,arr.push(add01,add02,add03,add04,add05)
+                  console.log(arr2)}
+                if(lastadd==4){
+                  arr2=arr,arr.push(add01,add02,add03,add04)
+                  console.log(arr2);}
+                if(lastadd==3){
+                arr2=arr,arr.push(add01,add02,add03)
+                console.log(arr2)}
+                if(lastadd==2){
+                arr2=arr,arr.push(add01,add02)
+                console.log(arr2)}
+                if(lastadd==1){
+                arr2=arr,arr.push(add01)
+                console.log(arr2)}
+
+        }
+
+
+      }
+      else if(arr2=="remove"){
+
+      }
+      else(alert("syntax error"))
+
+
+
+
+
+
+    </script>
+</body>
+</html>

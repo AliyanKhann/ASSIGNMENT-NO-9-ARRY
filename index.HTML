@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="./index2/index2.html">index2</a>
+    <script>
+         //Q1 empty array 
+         var letarry=[];
+
+         //Q2 object array
+         var objarry=[];
+
+         //3 string arry
+         var strarry=["1","2","3"]
+         //4 number arry
+         var numarry=[1,2,3,4]
+         //5 boolen arry
+         var boolarry=[true,false]
+         console.log(typeof boolarry[0])
+         //6 mixed arry
+         var mixedarry=["a",1,true,(""),null]
+         //Q7 store quallification
+         document.write("<h3>Q7 EDUCATION IN PAKISTAN"+"<BR>");
+         var studyarry=["SSC","HCS","CSS","HTML","JAVA","PYTHON","BCS","BICS"]
+         for(i=0;i<studyarry.length;i++){
+            document.write(studyarry[i]+"<br>")
+         }
+
+         //Q8 student score
+         document.write("<h3>Q8 STUDENT SCORE</h3><br>")
+
+         var styname=["marcel","lara","gala"]
+         var styscr=[470,390,400]
+         var styscr2=500
+         document.write(styname[0]+" score is "+styscr[0] +" percentage "+styscr[0]/styscr2*100+"%")
+         document.write("<br>");
+         document.write(styname[1]+" score is "+styscr[1] +" percentage "+styscr[1]/styscr2*100+"%")
+         document.write("<br>");
+         document.write(styname[2]+" score is "+styscr[2] +" percentage "+styscr[2]/styscr2*100+"%")
+         document.write("<br>");
+
+        // Q9 colour
+        // namecolo="green"
+        // var useraddarr=prompt("add and remove")
+        // if(useraddarr== "add"){
+        //     var numcolo= +prompt("how many colour add in arry")
+        //    if(numcolo<=3){
+        //     var
+        //    }
+            
+        //      }
+    
+
+
+        // var coloarry=["red","blue","green"]
+
+        // console.log(coloarry)
+        // coloarry.unshift("yellow")
+        // console.log( coloarry)
+        // coloarry.push("white")
+        // console.log( coloarry)
+        // coloarry.unshift("purple","black")
+        // console.log( coloarry)
+        // coloarry.shift()
+        // console.log( coloarry)
+        // coloarry.pop()
+        // console.log( coloarry)
+
+
+        // Q10 sort
+        var sorarry=[320,134,280,351]
+        .sort(sorarry)
+        console.log(sorarry)
+
+        //Q11 slice method
+        var city=["lahore","islamabad","karachi","quetta","peshawar"]
+        .slice(1,3)
+        console.log(city)
+
+        //Q12 join
+        var joarry=["my","name","is","aliyan"]
+        .join(" ")
+        console.log(joarry)
+
+        //Q13 14 fifo lifo
+        var fifo=["mouse","keyboard","monitor","cpu"]
+        console.log(fifo)
+        fifo.shift()
+        console.log(fifo)
+        fifo.shift()
+        console.log(fifo)
+        fifo.shift()
+        console.log(fifo)
+        fifo.unshift("keyboard","mouse","monitor")
+        console.log(fifo)
+        fifo.pop()
+        console.log(fifo)
+        fifo.pop()
+        console.log(fifo)
+        fifo.pop()
+        console.log(fifo)
+        fifo.pop()
+        console.log(fifo)
+        fifo.push("keyboard","mouse","monitor","cpu")
+        console.log(fifo)
+
+        //Q15 manufacture mobile
+        var manuarry=["sumsung","oppo","vivo","nokia","tecno","infinix"]
+        document.write("<select>"+"<option>"+manuarry[0]+"</option>"+"<option>"+manuarry[1]+"</option>"+"<option>"+manuarry[2]+"</option>"+"<option>"+manuarry[3]+"</option>"+"<option>"+manuarry[4]+"</option>"+"<option>"+manuarry[5]+"</option>"+"</select>")
+
+
+    </script>
+</body>
+</html>
